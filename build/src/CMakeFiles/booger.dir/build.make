@@ -57,27 +57,27 @@ include src/CMakeFiles/booger.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/booger.dir/flags.make
 
-src/CMakeFiles/booger.dir/booger.cpp.o: src/CMakeFiles/booger.dir/flags.make
-src/CMakeFiles/booger.dir/booger.cpp.o: ../src/booger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grant/Projects/compiled/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/booger.dir/booger.cpp.o"
-	cd /home/grant/Projects/compiled/hello/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/booger.dir/booger.cpp.o -c /home/grant/Projects/compiled/hello/src/booger.cpp
+src/CMakeFiles/booger.dir/booger.cpp.obj: src/CMakeFiles/booger.dir/flags.make
+src/CMakeFiles/booger.dir/booger.cpp.obj: ../src/booger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grant/Projects/compiled/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/booger.dir/booger.cpp.obj"
+	cd /home/grant/Projects/compiled/hello/build/src && /usr/bin/arm-linux-gnueabi-g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/booger.dir/booger.cpp.obj -c /home/grant/Projects/compiled/hello/src/booger.cpp
 
 src/CMakeFiles/booger.dir/booger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/booger.dir/booger.cpp.i"
-	cd /home/grant/Projects/compiled/hello/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grant/Projects/compiled/hello/src/booger.cpp > CMakeFiles/booger.dir/booger.cpp.i
+	cd /home/grant/Projects/compiled/hello/build/src && /usr/bin/arm-linux-gnueabi-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grant/Projects/compiled/hello/src/booger.cpp > CMakeFiles/booger.dir/booger.cpp.i
 
 src/CMakeFiles/booger.dir/booger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/booger.dir/booger.cpp.s"
-	cd /home/grant/Projects/compiled/hello/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grant/Projects/compiled/hello/src/booger.cpp -o CMakeFiles/booger.dir/booger.cpp.s
+	cd /home/grant/Projects/compiled/hello/build/src && /usr/bin/arm-linux-gnueabi-g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grant/Projects/compiled/hello/src/booger.cpp -o CMakeFiles/booger.dir/booger.cpp.s
 
 # Object files for target booger
 booger_OBJECTS = \
-"CMakeFiles/booger.dir/booger.cpp.o"
+"CMakeFiles/booger.dir/booger.cpp.obj"
 
 # External object files for target booger
 booger_EXTERNAL_OBJECTS =
 
-src/libbooger.so: src/CMakeFiles/booger.dir/booger.cpp.o
+src/libbooger.so: src/CMakeFiles/booger.dir/booger.cpp.obj
 src/libbooger.so: src/CMakeFiles/booger.dir/build.make
 src/libbooger.so: src/CMakeFiles/booger.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/grant/Projects/compiled/hello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libbooger.so"

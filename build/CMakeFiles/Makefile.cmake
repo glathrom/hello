@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "../cmake/Raspberry-ARM.cmake"
   "../src/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c"
@@ -91,12 +92,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.16/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "/usr/share/cmake-3.16/Modules/Internal/FeatureTesting.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux-Determine-CXX.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux-GNU-C.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux-GNU-CXX.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux-GNU.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/Linux.cmake"
-  "/usr/share/cmake-3.16/Modules/Platform/UnixPaths.cmake"
   )
 
 # The corresponding makefile is:

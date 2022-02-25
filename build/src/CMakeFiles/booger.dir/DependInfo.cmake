@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/grant/Projects/compiled/hello/src/booger.cpp" "/home/grant/Projects/compiled/hello/build/src/CMakeFiles/booger.dir/booger.cpp.o"
+  "/home/grant/Projects/compiled/hello/src/booger.cpp" "/home/grant/Projects/compiled/hello/build/src/CMakeFiles/booger.dir/booger.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -186,14 +186,14 @@ booger/fast:
 	cd /home/grant/Projects/compiled/hello/build && $(MAKE) -f src/CMakeFiles/booger.dir/build.make src/CMakeFiles/booger.dir/build
 .PHONY : booger/fast
 
-booger.o: booger.cpp.o
+booger.obj: booger.cpp.obj
 
-.PHONY : booger.o
+.PHONY : booger.obj
 
 # target to build an object file
-booger.cpp.o:
-	cd /home/grant/Projects/compiled/hello/build && $(MAKE) -f src/CMakeFiles/booger.dir/build.make src/CMakeFiles/booger.dir/booger.cpp.o
-.PHONY : booger.cpp.o
+booger.cpp.obj:
+	cd /home/grant/Projects/compiled/hello/build && $(MAKE) -f src/CMakeFiles/booger.dir/build.make src/CMakeFiles/booger.dir/booger.cpp.obj
+.PHONY : booger.cpp.obj
 
 booger.i: booger.cpp.i
 
@@ -213,14 +213,14 @@ booger.cpp.s:
 	cd /home/grant/Projects/compiled/hello/build && $(MAKE) -f src/CMakeFiles/booger.dir/build.make src/CMakeFiles/booger.dir/booger.cpp.s
 .PHONY : booger.cpp.s
 
-main.o: main.cpp.o
+main.obj: main.cpp.obj
 
-.PHONY : main.o
+.PHONY : main.obj
 
 # target to build an object file
-main.cpp.o:
-	cd /home/grant/Projects/compiled/hello/build && $(MAKE) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/main.cpp.o
-.PHONY : main.cpp.o
+main.cpp.obj:
+	cd /home/grant/Projects/compiled/hello/build && $(MAKE) -f src/CMakeFiles/hello.dir/build.make src/CMakeFiles/hello.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
 main.i: main.cpp.i
 
@@ -254,10 +254,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... hello"
 	@echo "... booger"
-	@echo "... booger.o"
+	@echo "... booger.obj"
 	@echo "... booger.i"
 	@echo "... booger.s"
-	@echo "... main.o"
+	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
 .PHONY : help

@@ -1,1 +1,1 @@
-/usr/bin/c++    -Wl,-rpath,/home/grant/.local/lib CMakeFiles/hello.dir/main.cpp.o  -o hello  -Wl,-rpath,/home/grant/Projects/compiled/hello/build/src: libbooger.so 
+/usr/bin/arm-linux-gnueabi-g++-10    -Wl,-rpath,/home/grant/.local/lib CMakeFiles/hello.dir/main.cpp.obj  -o hello  libbooger.so 

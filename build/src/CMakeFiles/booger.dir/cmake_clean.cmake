@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/booger.dir/booger.cpp.o"
+  "CMakeFiles/booger.dir/booger.cpp.obj"
   "libbooger.pdb"
   "libbooger.so"
 )
