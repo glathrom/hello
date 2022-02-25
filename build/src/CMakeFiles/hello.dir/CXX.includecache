@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/booger.hpp
+
+/home/grant/Projects/compiled/hello/src/main.cpp
+stdlib.h
+-
+iostream
+-
+cmath
+-
+booger.hpp
+/home/grant/Projects/compiled/hello/src/booger.hpp
+

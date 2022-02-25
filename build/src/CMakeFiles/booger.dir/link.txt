@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libbooger.so -o libbooger.so CMakeFiles/booger.dir/booger.cpp.o 

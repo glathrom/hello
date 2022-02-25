@@ -1,0 +1,2 @@
+/home/grant/.local/bin/hello
+/home/grant/.local/lib/libbooger.so

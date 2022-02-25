@@ -19,7 +19,7 @@ add_library(booger SHARED booger.cpp)
 
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries( ${PROJECT_NAME} PUBLIC booger)
-target_link_options(${PROJECT_NAME} PUBLIC "-Wl"
+target_link_options(${PROJECT_NAME} PUBLIC "-Wl,-rpath,${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_LIBDIR}")
 
 ######################
 # installation 

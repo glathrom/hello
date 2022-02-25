@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/booger.hpp
+
+/home/grant/Projects/compiled/hello/src/booger.cpp
+iostream
+-
+booger.hpp
+/home/grant/Projects/compiled/hello/src/booger.hpp
+
