@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/booger.dir/booger.cpp.obj"
+  "libbooger.a"
   "libbooger.pdb"
-  "libbooger.so"
 )
 
 # Per-language clean rules from dependency scanning.

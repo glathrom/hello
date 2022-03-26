@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "/usr/bin/arm-linux-gnueabi-g++-10")
+set(CMAKE_CXX_COMPILER "/usr/bin/x86_64-w64-mingw32-g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "10.3.0")
+set(CMAKE_CXX_COMPILER_VERSION "9.3.0")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "14")
@@ -12,24 +12,24 @@ set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;
 set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")
 set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")
 
-set(CMAKE_CXX_PLATFORM_ID "Linux")
+set(CMAKE_CXX_PLATFORM_ID "MinGW")
 set(CMAKE_CXX_SIMULATE_ID "")
 set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")
 set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/usr/bin/arm-linux-gnueabi-ar")
-set(CMAKE_CXX_COMPILER_AR "/usr/bin/arm-linux-gnueabi-gcc-ar-10")
-set(CMAKE_RANLIB "/usr/bin/arm-linux-gnueabi-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/arm-linux-gnueabi-gcc-ranlib-10")
-set(CMAKE_LINKER "/usr/bin/arm-linux-gnueabi-ld")
+set(CMAKE_AR "/usr/bin/x86_64-w64-mingw32-ar")
+set(CMAKE_CXX_COMPILER_AR "/usr/bin/x86_64-w64-mingw32-gcc-ar")
+set(CMAKE_RANLIB "/usr/bin/x86_64-w64-mingw32-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/x86_64-w64-mingw32-gcc-ranlib")
+set(CMAKE_LINKER "/usr/bin/x86_64-w64-mingw32-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
 set(CMAKE_CXX_ABI_COMPILED TRUE)
-set(CMAKE_COMPILER_IS_MINGW )
+set(CMAKE_COMPILER_IS_MINGW 1)
 set(CMAKE_COMPILER_IS_CYGWIN )
 if(CMAKE_COMPILER_IS_CYGWIN)
   set(CYGWIN 1)
@@ -57,8 +57,8 @@ set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
 
 # Save compiler ABI information.
-set(CMAKE_CXX_SIZEOF_DATA_PTR "4")
-set(CMAKE_CXX_COMPILER_ABI "ELF")
+set(CMAKE_CXX_SIZEOF_DATA_PTR "8")
+set(CMAKE_CXX_COMPILER_ABI "")
 set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")
 
 if(CMAKE_CXX_SIZEOF_DATA_PTR)
@@ -82,7 +82,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/usr/arm-linux-gnueabi/include/c++/10;/usr/arm-linux-gnueabi/include/c++/10/arm-linux-gnueabi;/usr/arm-linux-gnueabi/include/c++/10/backward;/usr/lib/gcc-cross/arm-linux-gnueabi/10/include;/usr/arm-linux-gnueabi/include;/usr/include")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc-cross/arm-linux-gnueabi/10;/usr/arm-linux-gnueabi/lib;/lib/arm-linux-gnueabi;/lib;/usr/lib/arm-linux-gnueabi;/usr/lib")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/include/c++;/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/include/c++/x86_64-w64-mingw32;/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/include/c++/backward;/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/include;/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/include-fixed;/usr/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32;/usr/x86_64-w64-mingw32/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

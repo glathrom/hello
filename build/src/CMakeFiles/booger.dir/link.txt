@@ -1,1 +1,2 @@
-/usr/bin/arm-linux-gnueabi-g++-10 -fPIC   -shared  -o libbooger.so CMakeFiles/booger.dir/booger.cpp.obj 
+/usr/bin/x86_64-w64-mingw32-ar qc libbooger.a  CMakeFiles/booger.dir/booger.cpp.obj
+/usr/bin/x86_64-w64-mingw32-ranlib libbooger.a
